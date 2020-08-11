@@ -1,0 +1,399 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container {width:1170px; margin:0 auto;}
+/***************start slider*************************/
+.slider {
+    background-color:#ccc;
+    width:100%;
+     
+}
+.slider .intro {
+    color:#fff;
+    height:400px; 
+    padding-top:200px;
+    text-align:center;
+    background-image:url('../images/slider.jpg');
+    background-size:cover;
+}
+.intro h1 {
+    margin:0 auto;
+    width:600px;
+    border-top:4px solid #fff;
+    border-bottom:4px solid #fff;
+    text-transform:capitalize;
+    font-size:50px;
+    padding:5px 0;
+}
+.intro button {
+    background:none;
+    margin-top:30px;
+    padding:10px 30px;
+    border:2px solid #fff;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;        
+    text-transform:capitalize;
+    cursor:pointer;
+}
+/***************start navbar*****************/
+.navbar{
+    color:#fff; 
+    height:70px;
+    background-color:#252F31;
+    margin-top:0;
+    overflow:hidden;
+    text-transform:capitalize;
+}
+.navbar h2{
+    float:left;
+    font-size:25px;
+}
+.navbar h2 span{color:#2ecc71; }
+.navbar ul{
+    float:right;
+    overflow:hidden;
+    list-style-type:none;
+    padding-left:0;
+}
+.navbar ul li{
+    float:left;
+    padding:10px;
+}
+.navbar ul li a{text-decoration:none; color:#fff;}
+.navbar ul .active a,.navbar ul li a:hover{color:#2ecc71;} 
+/*******************end navbar********************/
+/*************************end slider***********************/
+/************ start features ****************************/
+.features{
+    overflow:hidden;
+    padding:30 0;
+}
+.feat{
+    float:left;
+    width:33.333%;
+    height:150px;
+}
+.feat h2{
+    color:#777;
+    text-transform:capitalize;
+}
+.feat p{
+    color:#888;
+    line-height:26px;
+}
+/********************** end features **********************/
+/********************** start about me **********************/
+.about-me {
+    overflow:hidden;
+    background-color:#F2F2F2;
+}
+.about-me .imag{
+    float:left;
+    width:40%;   
+}
+.about-me img{width:100%; height:500px;}
+.about-me .info{
+    float:left;
+    width:60%;
+}
+.about-me .info h2{
+    margin:25px 0 20px 40px;
+    color:#777;
+    text-transform:capitalize;
+}
+.about-me .info >p{
+    padding:0px 0 10px 40px;
+    line-height:27px;
+    color:#888;
+}
+/****************start hobbies*************************/
+.info .hobbies{
+    overflow:hidden;
+    width:100%;
+}
+.hobbies >div{
+    float:left;
+    width:50%;
+}
+.hobbies h3{
+    color:#777;
+    margin:5px 5px 7px 40px;
+    text-transform:capitalize;
+}
+.hobbies p{
+    color:#888;
+    line-height:27px;
+    margin:5px 5px 25px 40px;
+}
+/********************end hobbies*******************/
+/*******************************end about me**********************/
+/******************************start my skills******************************/
+.my-skills{
+    overflow:hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.skills{
+    float:left;
+    width:50%;
+}
+.skills h2{
+    margin:25px 0 20px 40px;
+    color:#777;
+    text-transform:capitalize;
+}
+.skills p{
+    margin:25px 0 20px 40px;
+    color:#888;
+    line-height:27px;
+}
+.skills button{
+    background-color:none;
+    border:4px solid #2ecc71;
+    font-weight:bold;
+    text-align:center;
+    padding:10px 30px;
+    margin:10px 0 0 40px;
+    color:#2ecc71;
+    text-transform:capitalize;
+    font-size:18px;
+    cursor:pointer;
+}
+.progress{
+    width:50%;
+    float:left;
+}
+.progress h3{
+    color:#777;
+    margin:25px 0 0 50px;
+    text-transform:capitalize;
+}
+.progress .recent{
+    height:25px;
+    background-color:#F2F2F2;
+    width:100%;
+    margin:13px 0 0 50px;
+}
+.progress .recent span{
+    background-color:#2ecc71;
+    color:#fff;
+    height:25px;
+    text-align:right;
+    font-weight:bold;
+    display:block;
+}
+/******************end my skills*********************/
+/*****************start resume**********************/
+.resume{
+    background-color:#F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align:center;
+}
+.resume h2{
+    color:#777;
+    text-transform:capitalize;
+}
+.resume p{
+    color:#888;
+    line-height:27px;
+}
+.resume button{
+    margin-top: 15px;
+    background-color:none;
+    border:3px solid #2ecc71;
+    color:#2ecc71;
+    padding:10px 30px;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-size:18px;
+    cursor:pointer;
+}
+/******************end resume****************************/
+/**********************start my education*********************/
+.my-education{overflow:hidden; padding:30px 0;}
+.educate{
+    float:left; 
+    width:50%;
+}
+.educate h2{
+    color:#777;
+    margin:25px 0 20px 40;
+    text-transform:capitalize;
+}
+.educate p{
+    color:#888;
+    margin:0 0 10px 40;
+}
+.exp{
+    margin-left:5%;
+    width:45%;
+    float:left;
+}
+.certificate h3{
+    margin:80px 0 10px 0;
+    color:#777;
+    text-transform:capitalize;
+}
+.certificate span{
+    display:block;
+    margin-bottom:10px;
+}
+.certificate span:first-of-type{color:#888; text-transform:capitalize;}
+.certificate span strong{
+    color:#999; 
+    font-weight:bold; 
+}
+.certificate span:last-of-type{
+    color:#fff;
+    background-color:#2ecc71;
+    padding:4px 10px;
+    display:inline-block;
+}
+.certificate p{
+    color:#888;
+    line-height:27px;
+}
+.my-education hr{                
+    margin:20px 0;
+    border:1px solid #999;
+}
+.clearfix{clear:both}
+/**********************end my education************************/
+/*****************start testemonials**************************/
+.testemonials{
+    background-color:#F2F2F2;
+    text-align:center;
+    padding:50px 0;
+}
+.testemonials h3{
+    color:#777;
+    text-transform:capitalize;
+    margin:30px o;
+}
+.testemonials p{
+    color:#888;
+    line-height:30px;
+    font-style:italic;
+    font-weight:bold;
+    font-size:15px;
+}
+.testemonials ul{
+    list-style: none;            
+    text-align:center;
+    padding-left:0px;  
+}
+.testemonials ul li{
+    width:15px;
+    height:15px;
+    border:2px solid #2ecc71;
+    display:inline-block;
+    cursor:pointer;
+}
+.testemonials ul .active, .testemonials ul li:hover{background-color:#2ecc71;}
+/***********************end testemonials**************************/
+/************************start portfolio*************************/
+.portfolio{
+    text-align:center;
+    padding:50px 0 70px 0;
+}
+.portfolio h2{
+    color:#777;
+    text-transform:capitalize;
+}
+.portfolio p{
+    color:#888;
+    line-height:27px;
+}
+.picture{overflow:hidden}
+.picture >div{
+    width:33.3333%;
+    float:left;
+    margin-bottom:30px;
+}
+.picture >div img{
+    width:92%;
+    background-color:#fff;
+    border:1px solid #ccc;
+    padding:3px;
+    margin:10px;
+}
+/*******************end portfolio*****************/
+/*********************start contact me********************/
+.contact-me{
+    background-color:#252F31;
+    padding-bottom:70px;
+    padding-top:50px;
+    overflow:hidden;
+}
+.contact{
+    float:left;
+    width:50%;
+}
+.contact h2{
+    color:#fff;
+    text-transform:capitalize;
+    margin-left:40px;
+}
+.contact p{
+    color:#6A6E71;
+    margin-left:40px;
+    padding:4px 0;
+    line-height:27px;
+}
+.contact strong{color:#D1D6DA; text-transform: capitalize;}
+form{
+    float:left;
+    width:45%;
+    margin-left:50px;
+}
+form lable{
+    display:block;
+    margin:10px 0;
+    color:#D1D6DA;
+    text-transform: capitalize;
+}
+form input{
+    background-color:#4B5557;
+    width:80%;
+    padding:10px;
+    margin-bottom:10px;
+    color:#fff;
+    border:0;
+}
+textarea{
+    background-color:#4B5557;
+    width:80%;
+    padding:10px;
+    margin-bottom:10px;
+    color:#fff;
+    border:0;
+    height:300px;  
+}
+input[type="submit"]{
+    background-color:#191E22;
+    color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+    text-transform:capitalize;
+    font-size:18px;
+    cursor:pointer;
+    width:26%;
+}
+/******************************************end contact me*************************/
+/**************************start footer***************************/
+.footer{
+    overflow:hidden;
+    background-color:#191E22;
+    color:#6A6E71;
+    padding:20px 0;
+}
+.footer span{
+    text-transform:capitalize;
+    float:left;
+    margin-left: 35;
+}
+/**************************end footer****************/
